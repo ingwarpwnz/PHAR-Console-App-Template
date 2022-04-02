@@ -1,0 +1,16 @@
+{
+    "name": "ingwarpwnz/php-console-phar",
+    "description": "Console app template",
+    "type": "project",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "symfony/console": "^5.4",
+        "guzzlehttp/guzzle": "^7.3"
+    }
+}

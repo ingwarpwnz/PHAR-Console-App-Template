@@ -1,0 +1,11 @@
+{
+    "chmod": "0755",
+    "directories": [
+        "bin",
+        "src",
+        "vendor"
+    ],
+    "exclude-dev-files": false,
+    "main": "bin/main.php",
+    "output": "build/app.phar"
+}
